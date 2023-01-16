@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Артём Павленко](https://up.htmlacademy.ru/htmlcss/36/user/2162609).
-* Наставник: `Неизвестно`.
+- Студент: [Артём Павленко](https://up.htmlacademy.ru/htmlcss/36/user/2162609).
+- Наставник: `Виктор Рыбаков`(https://htmlacademy.ru/profile/viktor-rybakov).
 
 ---
 
