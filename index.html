@@ -5,104 +5,95 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="styles/style.css">
 	<title>Главная</title>
 </head>
 
 <body>
 	<header class="page-header">
-		<div class="container">
-			<a class="page-header-link">
-				<span class="visually-hidden">Логотип сайта городка Седона</span>
-				<img class="page-header-logo" src="images/logo/logo.png" alt="Логотип сайта городка Седона">
-			</a>
+		<a class="logo">
+			<img class="logo-img" src="images/logo/logo.svg" alt="Логотип сайта Седона">
+		</a>
+		<nav class="navigation">
+			<ul class="navigation-list">
+				<li class="navigation-item navigation-item-active">
+					<a class="navigation-link" href="index.html">Главная</a>
+				</li>
+				<li class="navigation-item">
+					<a class="navigation-link " href="#">О Седоне</a>
+				</li>
+				<li class="navigation-item">
+					<a class="navigation-link" href="catalog.html">Гостиницы</a>
+				</li>
+			</ul>
 
-			<nav class="navigation">
-				<ul class="navigation-list">
-					<li class="navigation-item navigation-link-active">
-						<a href="index.html" class="navigation-link ">Главная</a>
-					</li>
-					<li class="navigation-item">
-						<a href="#" class="navigation-link">О Седоне</a>
-					</li>
-					<li class="navigation-item">
-						<a href="catalog.html" class="navigation-link">Гостиницы</a>
-					</li>
-				</ul>
-
-				<ul class="navigation-list navigation-user">
-					<li class="navigation-user-item">
-						<button class="navigation-user-search">
-							<span class="visually-hidden">Поиск Гостиницы</span>
-							<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
-								<path fill="#000"
-									d="m19.5 18-3.7-3.7a8 8 0 0 0 1.7-4.8 8 8 0 1 0-3.1 6.3l3.7 3.7 1.4-1.5Zm-10-2.5a6 6 0 0 1-6-6 6 6 0 0 1 12 0 6 6 0 0 1-6 6Z" />
-							</svg>
-						</button>
-					</li>
-					<li class="navigation-user-item">
-						<button class="navigation-user-heart">
-							<span class="visually-hidden">Добавить в Избранное</span>
-							<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
-								<path fill="#000" d="M9.9 19a1 1 0 0 1-.8-.4l-7-7.9A5.4 5.4 0 0 1 6.5 2C7.8 2 9 2.5 10 3.3a5.5 5.5 0 0 1 9 4.1c0 1.3-.5 2.5-1.3 
-								3.4l-7 7.9c-.2.2-.4.3-.8.3Zm-6-9.5 6.1 6.9 6.2-7c.5-.5.7-1.2.7-2 0-1.8-1.5-3.3-3.3-3.3-1 0-2 .5-2.7 1.3-.3.3-.6.4-.9.4-.3 0-.6-.2-.8-.4a3.7 
-								3.7 0 0 0-2.7-1.3 3.3 3.3 0 0 0-3.3 3.3c-.1.9.3 1.6.7 2.1-.1 0-.1 0 0 0Z" />
-							</svg>
-						</button>
-					</li>
-					<li class="navigation-user-item">
-						<a href="#" class="navigation-user-link">Хочу сюда!</a>
-					</li>
-				</ul>
-			</nav>
-		</div>
+			<ul class="navigation-list navigation-user">
+				<li class="navigation-user-item">
+					<button class="navigation-button navigation-user-search">
+						<span class="visually-hidden">Поиск Гостиницы</span>
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+							<path fill="#000"
+								d="m19.5 18-3.7-3.7a8 8 0 0 0 1.7-4.8 8 8 0 1 0-3.1 6.3l3.7 3.7 1.4-1.5Zm-10-2.5a6 6 0 0 1-6-6 6 6 0 0 1 12 0 6 6 0 0 1-6 6Z" />
+						</svg>
+					</button>
+				</li>
+				<li class="navigation-user-item">
+					<button class="navigation-button navigation-user-heart">
+						<span class="visually-hidden">Добавить в Избранное</span>
+						<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 20 20">
+							<path fill="#000" d="M9.9 19a1 1 0 0 1-.8-.4l-7-7.9A5.4 5.4 0 0 1 6.5 2C7.8 2 9 2.5 10 3.3a5.5 5.5 0 0 1 9 4.1c0 1.3-.5 2.5-1.3 
+							3.4l-7 7.9c-.2.2-.4.3-.8.3Zm-6-9.5 6.1 6.9 6.2-7c.5-.5.7-1.2.7-2 0-1.8-1.5-3.3-3.3-3.3-1 0-2 .5-2.7 1.3-.3.3-.6.4-.9.4-.3 0-.6-.2-.8-.4a3.7 
+							3.7 0 0 0-2.7-1.3 3.3 3.3 0 0 0-3.3 3.3c-.1.9.3 1.6.7 2.1-.1 0-.1 0 0 0Z" />
+						</svg>
+					</button>
+				</li>
+				<li class="navigation-user-item">
+					<a href="#" class="button navigation-user-link">Хочу сюда!</a>
+				</li>
+			</ul>
+		</nav>
 	</header>
+  <main class="main-index">
+		<section class="intro">
+			<h1 class="visually-hidden">Добро пожаловать на главную страницу сайта Седона</h1>
+			<img class="intro-img" src="images/logo/welcome.png" alt="Welcome -to the gargeous- SEDONA">
+			<img class="intro-img-elem" src="images/logo/divider.png" alt="Элемент Нижней части Фона">
+		</section>
 
-	<main class="main-index">
-		<div class="container">
-			<section class="intro">
-				<h1 class="visually-hidden">Добро пожаловать в Седону</h1>
-				<img class="intro-img" src="images/logo/welcome.png" alt="Интро главной страницы">
-				<img class="intro-img-elem" src="images/logo/divider.png" alt="Элемент Нижней части Фона">
-				<div class="intro-discription">
-					<h2 class="intro-discription-title">Седона — небольшой городок в Аризоне,<br>заслуживающий большего!
-					</h2>
-					<p class="intro-discription-subtitle">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!
-					</p>
-				</div>
-			</section>
-
+		<section class="intro-discription">
+			<h2 class="intro-discription-title">Седона — небольшой городок в Аризоне,<br>заслуживающий большего!</h2>
+			<p class="intro-discription-subtitle">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+		</section>
 
 			<section class="advantages">
 				<h2 class="visually-hidden">Преимущество</h2>
 				<ul class="advantages-list">
 					<li class="advantages-item">
-						<article class="block">
+						<article class="block-advantages">
 							<h3 class="block-title block-title-blue">Настоящий <br> городок</h3>
 							<p class="advantages-description">Седона — не аттракцион для<br> туристов, там течёт своя<br> жизнь</p>
 							<img src="images/image/photo-1.jpg" alt="Картинка города">
 						</article>
 					</li>
 					<li class="advantages-item">
-						<article class="block">
+						<article class="block-advantages">
 							<h3 class="block-title">Небольшая<br>площадь</h3>
 							<p class="advantages-description">Все достопримечательности<br> находятся очень близко</p>
 						</article>
 					</li>
 					<li class="advantages-item">
-						<article class="block">
+						<article class="block-advantages">
 							<h3 class="block-title">Красивая<br>дорога</h3>
 							<p class="advantages-description">Ехать в Седону из Лас-Вегаса<br> совсем не скучно!</p>
 						</article>
 					</li>
 					<li class="advantages-item">
-						<article class="block">
+						<article class="block-advantages">
 							<h3 class="block-title">Мало<br>туристов</h3>
 							<p class="advantages-description">Большинство едет в Гранд <br>Каньон и толпится там</p>
 						</article>
 					</li>
 					<li class="advantages-item">
-						<article class="block">
+						<article class="block-advantages">
 							<img src="images/image/photo-2.jpg" alt="Картинка каньона">
 							<h3 class="block-title block-title-blue">Там есть<br>мост дьявола</h3>
 							<p class="advantages-description">Да, по нему можно пройти!<br> Если вы осмелитесь,<br> разумеется</p>
@@ -113,7 +104,7 @@
 
 			<section class="description">
 				<h2 class="visually-hidden">Описание</h2>
-				<h2 class="description-title">Приезжайте в Седону отдохнуть<br> в комфорте и уюте!</h2>
+				<h3 class="description-title">Приезжайте в Седону отдохнуть<br> в комфорте и уюте!</h3>
 				<p class="description-subtitle">Опытный персонал и качественное обслуживание!</p>
 			</section>
 
@@ -144,11 +135,10 @@
 				</ul>
 			</section>
 
-			<section class="search">
-				<h2 class="search-title">Заинтересовались?</h2>
-				<p class="search-subtitle">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения
-					гостиниц в Седоне</p>
-				<button class="search-btn" type="button">Поиск гостиницы в седоне</button>
+			<section class="interested">
+				<h2 class="interested-title">Заинтересовались?</h2>
+				<p class="interested-subtitle">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+				<button class="button search-btn" type="button">Поиск гостиницы в седоне</button>
 			</section>
 
 			<section class="subscribe">
@@ -157,12 +147,11 @@
 				<form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
 					<label class="visually-hidden" for="subscribe-email">E-mail</label>
 					<input class="field" placeholder="Ваш e-mail" name="subscribe-email" id="subscribe-email" required>
-					<button class="subscribe-btn" type="submit">Подписаться</button>
+					<button class="button subscribe-btn" type="submit">Подписаться</button>
 				</form>
 			</section>
-		</div>
 	</main>
-
+  
 	<footer class="page-footer">
 		<div class="container">
 			<section class="social">
