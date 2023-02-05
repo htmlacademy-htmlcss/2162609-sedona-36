@@ -1,0 +1,389 @@
+/* -Подключение шрифта -(PT Sans)- */
+@font-face {
+	font-family: "PT Sans";
+	font-style: normal;
+	font-weight: 400;
+	src: url("fonts/ptsans-400.woff2") format("woff2");
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "PT Sans";
+	font-style: normal;
+	font-weight: 700;
+	src: url("fonts/ptsans-700.woff2") format("woff2");
+	font-display: swap;
+}
+
+/* Общие настройки */
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	color: #000;
+	background-color: #fff;
+}
+
+/* Button */
+.button {
+	padding: 8px 50px;
+	border-radius: 4px;
+	font-family: 'PT Sans';
+	font-weight: 700;
+	color: #fff;
+	background-color: #756157;
+	text-transform: uppercase;
+	border: none;
+
+}
+
+/* ---------- Главная страница ---------- */
+
+/* Pages-header */
+.page-header {
+	color: #000;
+	background-color: #fff;
+}
+
+/* Navigation */
+.navigation-link {
+	font-weight: 700;
+	font-size: 20px;
+  text-align: center;
+	color: #000;
+}
+
+/* Navigation-user */
+.navigation-user {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	text-transform: uppercase;	
+}
+
+/* Кнопка (navigation-user-btn) */
+.navigation-user-btn {
+	background: #756157;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+/* Main-index */
+
+/* Разметка логотипи элемента */
+.intro {
+	height: 485px;
+	background-image: url("/images/logo/divider.png"), url("/images/logo/welcome.png"), url("/images/image/index-background.jpg");
+	color: #000;
+	background-color: #fff;
+	background-position: center 428px, center 51px, center -5px;
+  background-size: 1200px 58px, 458px 352px, 1200px 510px;
+	background-repeat: no-repeat, no-repeat, no-repeat;
+}
+
+/* Разметка intro-discription */
+.block-title {
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 36px;
+	color: #000;
+	text-transform: uppercase;	
+}
+
+.block-subtitle {
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 26px;
+	color: #333333;	
+}
+
+/* Разметка блока advantages-list */
+.advantages-list {
+  text-align: center;
+}
+
+/* Блок с Название - block-title */
+.block-advantages-title {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+	text-transform: uppercase;	
+}
+
+/* Блок с Описание - advantages-description */
+.advantages-description {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	color: #333333;
+}
+
+/* Блок - recommendations - Добавление изображения (Иконок)*/
+
+/* Иконка для раздела Жильё */
+.recommendations-item-housing {
+	background-image: url("/images/icons/house.svg");
+	background-repeat: no-repeat;
+}
+/* Иконка для раздела Еда */
+.recommendations-item-food {
+	background-image: url("/images/icons/food.svg");
+	background-repeat: no-repeat;	
+}
+/* Иконка для раздела Сувениры */
+.recommendations-item-souvenirs {
+	background-image: url("/images/icons/surprise.svg");
+	background-repeat: no-repeat;		
+}
+
+/* Блок - recommendations - Описание*/
+.recommendations-discription {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	color: #333333;
+}
+
+/* Блок - interested - Заинтересовались */
+
+/* Кнопка (Поиск гостиницы в седоне) */
+.interested-search-btn {
+	background: #756157;
+}
+
+
+/* Блок - subscribe - Подписаться на рассылку */
+
+/* Добавляем фон */
+.subscribe {
+	background-image: url("/images/image/Subscribe.jpg");
+	background-repeat: no-repeat;
+	block-size: 100% auto;
+}
+/* Название */
+.subscribe-title {
+	color: #fff;
+}
+/* Описание */
+.subscribe-subtitle {
+	color: #fff;	
+}
+/* Кнопка Подписаться */
+.subscribe-btn {
+	background: #82B3D3;
+	border-radius: 0px 4px 4px 0px;	
+}
+
+/* Блок footer */
+
+/* Блок phone-link */
+.phone-link {
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 40px;
+	color: #000;
+	background-color: #fff;	
+}
+
+
+/* ---------- Страница Каталога ---------- */
+
+/* Блок section-seach (Иконка-Домика) */
+.section-seach {
+	background-image: url("/images/image/catalog-header.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+
+/* Блок filter-content-title (Название) */
+.filter-content-title {
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 78px;
+	color: #fff;
+}
+
+/* Блок breadcrubs-list */
+.breadcrubs-item {
+	font-size: 16px;
+	line-height: 21px;
+	color: #fff;
+}
+
+/* Блок catalog-filter-title (Заголовок) */
+.catalog-filter-title {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 24px;
+	color: #FFFFFF;
+}
+
+/* Блок catalog-filter-item (Название - checkbox) */
+.catalog-filter-item {
+	font-size: 18px;
+	line-height: 23px;
+	color: #FFFFFF;
+	border-color: #000;
+}
+
+/* Блок catalog-filter-button (Кнопки) */
+.button-apply {
+	background: #82B3D3;
+} 
+
+/* Блок section-result (Заголовок) */
+.sort-title {
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 36px;
+	color: #000;
+	background-color: #fff;
+}
+
+/* Блок Сортировки */
+.sort-control {
+	padding: 14px 20px;
+	border: 2px solid #E5E5E5;
+	border-radius: 4px;
+}
+
+/* Блок sort-view (Кнопки отображения контента) */
+
+/* Книжное отображение */
+.sort-btn-book {
+	background-image: url("/images/icons/book.svg");
+	background-repeat: no-repeat;
+}
+
+/* Десктопное отображение */
+.sort-btn-desc {
+	background-image: url("/images/icons/desc.svg");
+	background-repeat: no-repeat;
+}
+
+/* Отображение списком */
+.sort-btn-list {
+	background-image: url("/images/icons/list.svg");
+	background-repeat: no-repeat;
+}
+
+/* Блок product-card */
+
+/* Title */
+.product-list-title {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+	color: #000;
+	background-color: #fff;	
+}
+
+/* Type */
+.product-card-type {
+	font-size: 18px;
+	line-height: 21px;
+	color: #333333;	
+}
+
+/* Price */
+.product-card-price {
+	font-size: 18px;
+	line-height: 21px;
+	color: #333333;	
+}
+
+/* Button*/
+.button-favorites {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 20px;
+	background: #82B3D3;	
+}
+
+/* Button Active*/
+.button-favorites-active {
+	background: #7DB54F;
+}
+
+/* Блок Рейтинга*/
+/* Stars - 4 */
+.raiting-stars-four {
+	background-image: url("/images/stars/4-stars.png");
+	background-repeat: no-repeat;
+}
+
+.raiting-stars-three {
+	background-image: url("/images/stars/3-stars.png");
+	background-repeat: no-repeat;
+	}
+
+.raiting-stars-two {
+	background-image: url("/images/stars/2-stars.png");
+	background-repeat: no-repeat;
+	}
+
+/* Числовой рейтинг */
+.raiting-text {
+	padding: 9px 22px 8px 23px;
+	font-size: 16px;
+	line-height: 20px;
+	background: #F2F2F2;
+	border-radius: 4px;	
+	color: #333333;
+	text-transform: uppercase;
+}	
+
+/* Блок с пагинацией */
+
+/* Блок с пагинацией общие */
+.pagination-item {
+	width: 60px;
+	height: 60px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 36px;
+	background: #82B3D3;
+	border-radius: 4px;
+	text-align: center;
+}
+/* Блок с пагинацией (...) */
+.pagination-item-active {
+	background: #F2F2F2;
+	color: #000;	
+}
+/* Блок с пагинацией */
+.button-pagination-link {
+	color: #fff;	
+}
+/* Блок с пагинацией Active */
+.pagination-link-ative {
+	color: #000;
+}
+/* Блок с пагинацией Active-White */
+.pagination-item-white {
+	width: 60px;
+	height: 60px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 36px;
+	background: #fff;
+	border-radius: 4px;
+	text-align: center;
+}
+
+/* Блок Подпишитесь на рассылку (Переопределение) */
+.subscribe-catalog-title {
+	color: #000;
+}
+
+.subscribe-catalog-subtitle {
+	color: #333333;
+}
